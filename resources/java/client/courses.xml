@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<courses>
+    <!-- <course id="" student_id="" title="" description=""></course> -->
+    <course id="11" student_id="1" title="ITE 18" description="Applications Development and Emerging Technologies"></course>
+    <course id="12" student_id="2" title="ITE 16" description="Information Management"></course>
+    <course id="13" student_id="3" title="ITE 106" description="Integrative Programming and Technologies 1"></course>
+    <course id="14" student_id="4" title="CSC 104" description="Object-oriented Programming"></course>
+    <course id="15" student_id="5" title="TCW" description="The Contemporary World"></course>
+    <course id="16" student_id="6" title="ITE 14" description="Data Structures and Algorithms"></course>
+    <course id="17" student_id="5" title="ITE 106" description="Integrative Programming and Technologies 1"></course>
+    <course id="18" student_id="2" title="ITE 16" description="Information Management"></course>
+    <course id="19" student_id="7" title="ITE 14" description="Data Structures and Algorithms"></course>
+</courses>

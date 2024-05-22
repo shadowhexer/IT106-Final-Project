@@ -1,0 +1,154 @@
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+.scrollable{
+  height: 100vh;
+}
+
+.stop-scroll {
+  height: 100%;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #ec9a29;
+}
+
+a:hover {
+  color: #a8201a;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #ec9a29;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #a8201a;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  background: #09191f;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 20px 0;
+}
+
+#header.header-scrolled {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+}
+
+#header.header-inner-pages {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#header .logo {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#header .logo a {
+  color: #dad2d8;
+}
+
+#header .logo img {
+  max-height: 40px;
+}
+
+h1 {
+  text-align: center;
+margin-top: 100px;
+}
+h2 {
+  text-align: center;
+
+}
+table {
+  border-collapse: collapse;
+  width: 70%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #acacac;
+}
+tbody tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+/* Footer style */
+#footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #09191f;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+  line-height: 1;
+  padding: 2rem 0;
+  margin-top: 7rem;
+  height: 36px;
+  }

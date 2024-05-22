@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<students>
+    <student id="1" name="Hexer" age="21" address="Bern, Swiss Confederation" contact="09123456789"></student>
+    <student id="2" name="Chelsea" age="18" address="Bern, Swiss Confederation" contact="09123456789"></student>
+    <student id="3" name="Romar Pepito" age="19" address="Butuan City, Agusan del Norte, Caraga" contact="09123456789"></student>
+    <student id="4" name="Axcelle Torres" age="21" address="Karl-Marx-Stadt, Saxony, Deutschland" contact="09123456789"></student>
+    <student id="5" name="Elkapitan R" age="21" address="Butuan City, Northern Agusan, Caraga" contact="09123456789"></student>
+    <student id="6" name="Austin Rey" age="21" address="Butuan City, Northern Agusan, Caraga" contact="09123456789"></student>
+    <student id="7" name="Joshua Tubo" age="20" address="The Hague, Holland" contact="09123456789"></student>
+</students>
